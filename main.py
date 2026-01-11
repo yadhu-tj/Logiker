@@ -8,4 +8,4 @@ app = FastAPI()
 # Decorator to define a route for HTTP GET requests at the root URL ("/")
 @app.get("/")
 def read_root(): # Function to handle requests to the root URL
-    return {"Hello": "the project is alive"} # Return a JSON response
+    return {"Hello": "the project is alive"} # Return a JSON response for this route
